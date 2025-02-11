@@ -13,6 +13,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -33,8 +34,9 @@ public class BaseClass {
 	public ExtentReports extentReports;
 	public ExtentTest extentTest;
 
+	@Parameters({"browser","urlToBeTested"})
 	@BeforeSuite
-	public void setupSuite() {
+	public void setupSuite(String browser, String urlToBeTested) {
 		Reporter.log("Test setup started", true);
 		//excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
@@ -51,7 +53,9 @@ public class BaseClass {
 		System.out.println("Inside setUpSuite method");
 
 
-		driver = BrowserFactory.startApplication(driver,config.getBrowser().toString(),config.getURL().toString());
+		//driver = BrowserFactory.startApplication(driver,config.getBrowser().toString(),config.getURL().toString());
+		driver = BrowserFactory.startApplication(driver,browser,urlToBeTested);
+		
 		Reporter.log("Test setup done.. good to start the tests", true);
 	}
 

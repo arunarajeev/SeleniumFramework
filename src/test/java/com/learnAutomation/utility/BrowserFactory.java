@@ -18,7 +18,7 @@ public class BrowserFactory {
 			System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		else if(browserName == "edge"){
+		else if(browserName.contains("edge")){
 			System.setProperty("webdriver.edge.driver", ".\\Drivers\\msedgedriver.exe");
 			driver = new EdgeDriver();
 		}

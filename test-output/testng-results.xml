@@ -17,12 +17,12 @@
       <![CDATA[Testing complete]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-11T08:42:39 PST" name="Suite" finished-at="2025-02-11T08:42:43 PST" duration-ms="3316">
+  <suite started-at="2025-02-11T10:52:00 PST" name="Suite" finished-at="2025-02-11T10:52:04 PST" duration-ms="3255">
     <groups>
     </groups>
-    <test started-at="2025-02-11T08:42:39 PST" name="Test" finished-at="2025-02-11T08:42:43 PST" duration-ms="3316">
+    <test started-at="2025-02-11T10:52:00 PST" name="Test" finished-at="2025-02-11T10:52:04 PST" duration-ms="3255">
       <class name="test.java.com.learnAutomation.testcases.LoginTestCRM">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:36 PST" name="setupSuite" finished-at="2025-02-11T08:42:39 PST" duration-ms="2886" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T10:51:58 PST" name="setupSuite" finished-at="2025-02-11T10:52:00 PST" duration-ms="2538" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test setup started]]>
@@ -32,7 +32,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:39 PST" name="setup" finished-at="2025-02-11T08:42:42 PST" duration-ms="2456" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T10:52:00 PST" name="setup" finished-at="2025-02-11T10:52:03 PST" duration-ms="2512" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Landing page setup done]]>
@@ -42,11 +42,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginApp()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="loginApp" finished-at="2025-02-11T08:42:42 PST" duration-ms="255" status="PASS">
+        <test-method signature="loginApp()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T10:52:03 PST" name="loginApp" finished-at="2025-02-11T10:52:03 PST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="tearDownMethod" finished-at="2025-02-11T08:42:42 PST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T10:52:03 PST" name="tearDownMethod" finished-at="2025-02-11T10:52:03 PST" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="tearDown" finished-at="2025-02-11T08:42:43 PST" duration-ms="405" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T10:52:03 PST" name="tearDown" finished-at="2025-02-11T10:52:04 PST" duration-ms="364" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testing complete]]>
