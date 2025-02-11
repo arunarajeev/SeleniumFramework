@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test setup started]]>
+    </line>
+    <line>
+      <![CDATA[Test setup done.. good to start the tests]]>
+    </line>
+    <line>
+      <![CDATA[Landing page setup done]]>
+    </line>
+    <line>
+      <![CDATA[Switched to CRM login page]]>
+    </line>
+    <line>
+      <![CDATA[Testing complete]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-11T08:42:39 PST" name="Suite" finished-at="2025-02-11T08:42:43 PST" duration-ms="3316">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T08:42:39 PST" name="Test" finished-at="2025-02-11T08:42:43 PST" duration-ms="3316">
+      <class name="test.java.com.learnAutomation.testcases.LoginTestCRM">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:36 PST" name="setupSuite" finished-at="2025-02-11T08:42:39 PST" duration-ms="2886" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test setup started]]>
+            </line>
+            <line>
+              <![CDATA[Test setup done.. good to start the tests]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:39 PST" name="setup" finished-at="2025-02-11T08:42:42 PST" duration-ms="2456" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Landing page setup done]]>
+            </line>
+            <line>
+              <![CDATA[Switched to CRM login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginApp()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="loginApp" finished-at="2025-02-11T08:42:42 PST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="tearDownMethod" finished-at="2025-02-11T08:42:42 PST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.java.com.learnAutomation.testcases.LoginTestCRM@ae13544]" started-at="2025-02-11T08:42:42 PST" name="tearDown" finished-at="2025-02-11T08:42:43 PST" duration-ms="405" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testing complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.java.com.learnAutomation.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
