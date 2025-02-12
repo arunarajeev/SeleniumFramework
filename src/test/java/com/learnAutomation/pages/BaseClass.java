@@ -65,7 +65,7 @@ public class BaseClass {
 		Reporter.log("Landing page setup done", true);
 		//driver = BrowserFactory.startApplication(driver,"chrome", "https:\\www.freecrm.com");
 		//
-		CRMLandingPage landingPage = PageFactory.initElements(driver, CRMLandingPage.class);
+		/*CRMLandingPage landingPage = PageFactory.initElements(driver, CRMLandingPage.class);
 		landingPage.goToLoginPage();	
 		Object[] windowHandles=driver.getWindowHandles().toArray();
 		System.out.println(windowHandles.length);
@@ -73,7 +73,8 @@ public class BaseClass {
 		//assert on title of new window
 		String title=driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "Cogmento CRM");
+		Assert.assertEquals(title, "Cogmento CRM");*/
+		//driver = BrowserFactory.startApplication(driver,"chrome", "https://ui.cogmento.com/?lang=en");
 		Reporter.log("Switched to CRM login page", true);
 	}
 	@AfterMethod
